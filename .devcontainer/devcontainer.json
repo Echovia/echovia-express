@@ -1,0 +1,16 @@
+{
+  "name": "Node.js 18 DevContainer",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "postCreateCommand": "npm install",
+  "forwardPorts": [3000],
+  "mounts": [
+    "source=${localWorkspaceFolder}/node_modules,target=/workspace/node_modules,type=volume"
+  ],
+  "features": {},
+  "remoteUser": "node"
+}
