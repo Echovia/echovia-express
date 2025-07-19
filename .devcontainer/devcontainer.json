@@ -3,9 +3,6 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "settings": {
-    "terminal.integrated.defaultProfile.linux": "bash"
-  },
   "postCreateCommand": "npm install",
   "forwardPorts": [3000],
   "mounts": [
