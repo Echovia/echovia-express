@@ -8,6 +8,12 @@
   "mounts": [
     "source=${localWorkspaceFolder}/node_modules,target=/workspace/node_modules,type=volume"
   ],
-  "features": {},
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "workbench.colorTheme": "Default Dark Modern"
+      }
+    }
+  },
   "remoteUser": "node"
 }
